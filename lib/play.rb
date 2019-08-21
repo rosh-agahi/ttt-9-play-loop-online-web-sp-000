@@ -39,6 +39,8 @@ end
 
 def play
   count = 1 
-  loop 
+  until count == 9 
+  turn(board)
+  count += 1
 end
 end
